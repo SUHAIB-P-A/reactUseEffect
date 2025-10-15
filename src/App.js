@@ -10,3 +10,9 @@ function App() {
 }
 
 export default App;
+
+ // importent terms
+
+ // MOUNTING - load a new component
+ // UPDATING - update a component
+ // UNMOUNTING - remove a component
