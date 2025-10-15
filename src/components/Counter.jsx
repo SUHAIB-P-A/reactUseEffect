@@ -5,11 +5,12 @@ function Counter() {
 
     useEffect(() => {
         console.log("Mounting....");
-        return ()=>{
-            console.log("unmounting....");
-            
+        console.log("updating..." + count);
+        return () => {
+            console.log("clean up" + count);
         }
-    })
+
+    }, [count])
 
     return (
         <div>
