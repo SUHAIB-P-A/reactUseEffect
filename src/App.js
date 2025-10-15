@@ -6,12 +6,12 @@ import { useState } from 'react';
 
 
 function App() {
-  const [count, setCount] = useState(false)
+  const [state, setState] = useState(false)
 
   return (
     <div >
-      <h1 onClick={() => setCount(!count)} >Show / Hide</h1>
-      {count && <Counter />}
+      <h1 onClick={() => setState(!state)} >Show / Hide</h1>
+      {state && <Counter />}
     </div>
   );
 }
