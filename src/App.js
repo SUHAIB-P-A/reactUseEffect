@@ -1,7 +1,7 @@
 
 import './App.css';
 import Counter from './components/Counter';
-import { useState } from 'react';
+import {useState } from 'react';
 
 
 
