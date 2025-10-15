@@ -11,7 +11,7 @@ function App() {
   return (
     <div >
       <h1 onClick={() => setCount(!count)} >Show / Hide</h1>
-      {count ? <Counter /> : null}
+      {count && <Counter />}
     </div>
   );
 }
